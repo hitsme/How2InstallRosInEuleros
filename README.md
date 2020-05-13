@@ -44,3 +44,25 @@
   - [福利](#福利)
   - [公众号](#公众号)
   
+
+1.环境准备
+cmake https://cmake.org/download/
+yum install gcc gcc-c++
+gcc https://blog.csdn.net/qq_33571814/article/details/82380215
+Cmake3.17.2(下载二进制安装包)
+pip install -U rosdep rosinstall_generator wstool rosinstall
+Pip install empy
+/etc/issue
+
+编译安装boost(https://www.cnblogs.com/smallredness/p/9245127.html)
+
+2.rosdep init
+ rosdep update
+替换以下文件为centos 7内容，跳过rosdep update对系统的match
+/etc/os-release
+/etc/redhat-release
+/usr/lib/os-release
+
+3.http://wiki.ros.org/console_bridge
+4.yum -y install bzip2
+ git clone -b master https://github.com/pocoproject/poco.git
